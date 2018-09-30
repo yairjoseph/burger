@@ -40,6 +40,7 @@ var orm = {
                 throw err;
             }
             cb(result);
+            // console.log(result)
         });
     },
         insertOne: function(table, cols, vals, cb) {
