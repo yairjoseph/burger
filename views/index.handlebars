@@ -14,10 +14,9 @@
 
 <h2>Burgers are devoured!</h2>
 <ul>
-    
   {{#each burger}}
     {{#if devoured}}
-      {{> burgers/burgers-block devoured=1}}
+      {{> burgers/burgers-block}}
     {{/if}}
   {{/each}}
 
