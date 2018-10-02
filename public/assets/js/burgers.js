@@ -42,4 +42,19 @@ $(function() {
         }
       );
     });
+
+
+    $(".throw-up").on("click", function(event) {
+      event.preventDefault();
+      // Send the DELETE request.
+      $.ajax("/api/burgers/", {
+        type: "DELETE"
+      }).then(
+        function() {
+          console.log("You just threw up go eat some more!");
+          // Reload the page to get the updated list
+          location.reload();
+        }
+      );
+    });
   });

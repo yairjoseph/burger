@@ -17,6 +17,11 @@ var burger = {
             cb(res);
         });
     },
+    throwUp: function (cb) {
+        orm.throwUp("burgers", function (res) {
+            cb(res);
+        });
+    }
 };
 
 // Export the database functions for the controller (burgers_Controller.js).
