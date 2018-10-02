@@ -1,3 +1,46 @@
 body { 
+    /* background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18207592.jpg"); */
     background-color: lemonchiffon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#burger-image{
+    height:10%;
+    width:10%;
+    border-radius: 60px;
+
+}
+
+.to-devour{
+    background-color: rgba(255, 255, 128, 0.845);
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+    border-radius: 40px;
+    border: dotted 1px black;
+
+}
+
+
+.devoured-burger{
+    background-color: rgb(255, 255, 128, 0.845);
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px;
+    border-radius: 40px;
+    border: dotted 1px black;
+
+}
+.add-burger {
+    display: inline-block;
+}
+.general {
+    display: inline-block;
+}
+.add-burger{
+    text-align: center;
 }
